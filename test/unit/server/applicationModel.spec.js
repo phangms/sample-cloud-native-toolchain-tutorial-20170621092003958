@@ -51,7 +51,7 @@ describe('Application Model', function() {
     describe("#getApplicationById", function() {
       it("respond with matching application", function() {
         var apps = applicationModel.getApplicationById(8888);
-        expect(apps.id).to.equal(8988);
+        expect(apps.id).to.equal(8888);
       });
     });
   });
